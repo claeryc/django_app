@@ -3,7 +3,7 @@ from django import forms
 
 class NewTaskForm(forms.Form):
     task = forms.CharField(label = "New Task")
-    priority = forms.IntegerField(label = "Priority", min_value=1, max_value=5)
+    # priority = forms.IntegerField(label = "Priority", min_value=1, max_value=5)
 
 tasks = ["task-1", "task-2", "task-3"]
 
